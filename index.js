@@ -5,8 +5,8 @@ const xml2js = require('xml2js');     // Library to convert XML to JSON
 // Create an instance of the Express application
 const app = express();
 
-// Define the port on which the server will listen
-const port = 3000;
+// Define the port where the server will listen
+const port = process.env.PORT || 3000;
 
 // Global variables for the cache
 let cachedXmlData = null;
