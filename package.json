@@ -1,0 +1,15 @@
+{
+  "name": "divisas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Lasa",
+  "license": "MIT",
+  "description": "A Node.js application that provides a currency conversion API using exchange rates from the European Central Bank (ECB). It supports multiple currencies, caches data for performance optimization, and handles errors gracefully, ensuring reliable currency conversions.",
+  "dependencies": {
+    "express": "^4.21.0",
+    "xml2js": "^0.6.2"
+  }
+}
